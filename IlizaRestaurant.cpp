@@ -3,8 +3,8 @@
 int main()
 
 {
-    int s;
-    float p, x;
+    int items;
+    float total;
     int response;
 
     printf(" *********************************************\n");
@@ -18,29 +18,28 @@ int main()
     printf("Select 1, 2, or 3 ---> \n\n");
     scanf("%d", &response);
     printf("How many orders of item number %d would you like?\n", response);
-    scanf("%d", &s);
+    scanf("%d", &items);
 
     switch (response)
     {
     case 1:
-        printf("You have ordered %d order(s) of Beef pilawu	\n", s);
-        p=s * 5500;
-        printf("your total is RF%.2f\n\n", p);
+        printf("You have ordered %d order(s) of Beef pilawu	\n", items);
+        total=items * 5500;
+        printf("your total is RF%.2f\n\n", total);
         break;
 
     case 2:
-        printf("You have ordered %d order(s) of French fries with salade\n", s);
-        p=s*3500;
-        printf("Your total is RF %.2f\n\n", p);
+        printf("You have ordered %d order(s) of French fries with salade\n", items);
+        total=items*3500;
+        printf("Your total is RF %.2f\n\n", total);
         break;
 
     case 3:
-        printf("You have ordered %d order(s) of Nyamacoma \n", s);
-        p=s*7000;
-        printf("Your total is RF%.2f\n\n", p);
+        printf("You have ordered %d order(s) of Nyamacoma \n", items);
+        total=items*7000;
+        printf("Your total is RF%.2f\n\n", total);
         break;
 
-        printf("your total is RF %.2f\n\n", p);
     default:
         break;
 
