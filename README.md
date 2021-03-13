@@ -1,8 +1,10 @@
 # c
 
 #### A
-1.   Beef pilawu.         5500
+1.Beef pilawu.         5500
+
 2.French fries with salade.  3500
+
 3.Nyamacoma.           7000
 
 Write a program to write a man’s choice on menu in a restaurant , calculate the menu and serve him food 
